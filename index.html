@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="login">
+        <h2>Login</h2>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button id="submit" type="submit">Login</button>
+        <p class="acc-link">
+            <span>Don't Have Account ?</span>
+            <a href="#signup">Signup</a>
+        </p>
+        <hr>
+        <p>OR</p>
+        <button id="fb"><i class="fa-brands fa-facebook-f"></i> Login with Facebook</button>
+        <button id="google"><i class="fa-brands fa-google"></i> Login with Google</button>
+    </div>
+
+    <div id="signup">
+        <h2>Signup</h2>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Create Password">
+        <input type="password" placeholder="Confirm Password">
+        <button id="submit" type="submit">SignUp</button>
+        <p class="acc-link">
+            <span>Already Have Account ?</span>
+            <a href="#login">Login</a>
+        </p>
+        <hr>
+        <p>OR</p>
+        <button id="fb"><i class="fa-brands fa-facebook-f"></i> Login with Facebook</button>
+        <button id="google"><i class="fa-brands fa-google"></i> Login with Google</button>
+    </div>
+
+    <script src="./scipt.js"></script>
+</body>
+
+</html>
